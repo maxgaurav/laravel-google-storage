@@ -1,0 +1,23 @@
+{
+  "name" : "laravel-google-storage",
+  "description" : "package for google drive to be used with laravel storage system",
+  "keywords": ["laravel", "google", "filesystem", "drive", "google-drive"],
+  "license": "MIT",
+  "support": {},
+  "authors": [
+    {
+      "name": "Max Gaurav",
+      "email": "max.gaurav@ithands.net"
+    }
+  ],
+  "require" : {
+    "php":">=5.6.4",
+    "nao-pon/flysystem-google-drive": "~1.1",
+    "illuminate/support" : "~5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ITHands\\Packages\\Filesystem": "src/"
+    }
+  }
+}

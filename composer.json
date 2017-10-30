@@ -19,5 +19,12 @@
     "psr-4": {
       "ITHands\\Packages\\Filesystem": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ITHands\\Packages\\Filesystem\\GoogleDriveServiceProvider"
+      ]
+    }
   }
 }
